@@ -30,7 +30,7 @@ function TaskApp() {
       <input
         value={newTask}
         onChange={e => setNewTask(e.target.value)}
-        placeholder="הכנס משימה"
+        placeholder=" הכנס משימה חדשה"
       />
       <button onClick={addTask}>➕ הוסף</button>
       <ul>
